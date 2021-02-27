@@ -51,3 +51,17 @@
         margin-bottom: 1rem;
     }
  }
+
+ /* add responsive headline title on mobile (xs) (ada penambahan untuk bagian responsive */
+ @media (max-width: 991px)  { 
+    .headline-title {
+        font-size: 5vw; 
+    }
+ }
+ @media (max-width: 480px)  { 
+    .headline-title {
+        font-size: 12vw; 
+    }
+ }
+
+ /* end */
