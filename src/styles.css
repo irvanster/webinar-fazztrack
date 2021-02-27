@@ -1,0 +1,53 @@
+:root {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #3A3D42;
+}
+
+.jumbotron {
+    background: url('../assets/bg.png') no-repeat;
+    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.headline-subtitle {
+    font-size: 1rem;
+}
+.headline-box {
+    padding-top: 5rem;
+}
+.headline-title {
+    font-size: 4rem; 
+}
+
+.bg-primary {
+    background-color: #6379F4!important;
+}
+.text-primary {
+    color: #6379F4!important;
+}
+
+#features {
+    background-color: rgba(71, 58, 209, 0.06);;
+}
+
+
+.rounded-custom {
+    border-radius: 1rem;
+}
+
+
+@media (max-width: 767px) { 
+    .fullphone {
+        width: 100%;
+        display: none;
+    }
+    #navbarNav{
+        background-color: #000000aa;
+        border-radius: 1rem;
+        padding: 2rem;
+    }
+    .header-btn {
+        margin-bottom: 1rem;
+    }
+ }
